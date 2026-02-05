@@ -1,16 +1,5 @@
-/* STYLE RESET */
-.destinations .item header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-  margin-bottom: 24px;
-}
-
 .destinations {
   width: 312px;
-  margin: 0 auto;
-  margin-bottom: 88px;
 }
 
 .destination-items {
@@ -49,8 +38,7 @@
 }
 
 .destinations .item footer a {
-  width: 312px;
-  text-align: center;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
