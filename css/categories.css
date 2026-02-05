@@ -1,3 +1,7 @@
+.categories {
+  margin-bottom: 88px;
+}
+
 .search-categories {
   display: flex;
   flex-direction: column;
