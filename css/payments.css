@@ -51,9 +51,14 @@
 
   .payments .wrapper .image-gallery {
     width: 790px;
+    margin-top: 0;
   }
 
   .payments .wrapper .text-content {
     width: 360px;
+  }
+
+  .payments .wrapper .text-content h3 {
+    margin-top: 0;
   }
 }
