@@ -12,7 +12,7 @@
   line-height: 20px;
 }
 
-.reviews .reviews-container article footer h4 {
+.reviews .reviews-container article footer h3 {
   font-size: 20px;
   line-height: 32px;
   font-weight: var(--title-weight);
