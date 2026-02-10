@@ -43,6 +43,10 @@
   list-style: none;
 }
 
+.main-header .list-links a.selected {
+  text-decoration: underline;
+}
+
 .main-header .list-links li {
   margin: 16px 0;
 }
