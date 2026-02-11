@@ -74,6 +74,13 @@
   color: var(--text-secondary-color);
 }
 
+/* Packages bottom hero */
+
+.bottom-hero .hero-img.packages {
+  background: url(../img/bottom-hero-japan-mobile.png) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -110,6 +117,14 @@
     width: 579px;
     font-size: 32px;
     line-height: 150%;
+  }
+
+  /* Packages bottom hero */
+
+  .bottom-hero .hero-img.packages {
+    background: url(../img/bottom-hero-japan-tablet.png) no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 
