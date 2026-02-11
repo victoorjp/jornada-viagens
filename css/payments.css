@@ -1,5 +1,4 @@
-.main-payments .wrapper .image-gallery,
-.packages-payments .wrapper .image-gallery {
+.payments .wrapper .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 460px;
@@ -8,128 +7,107 @@
   width: 100%;
 }
 
-.main-payments .wrapper .image-gallery .image.bag {
-  background: url(../img/image-bag-mobile.png) no-repeat;
-  background-size: cover;
-}
-
-.main-payments .wrapper .image-gallery .image.passport {
-  background: url(../img/image-passport-mobile.png) no-repeat;
-  background-size: cover;
-}
-
-.main-payments .wrapper .image-gallery .image.bridge {
-  background: url(../img/image-bridge-mobile.png) no-repeat;
-  background-size: cover;
-}
-
-.main-payments .wrapper .image-gallery .image.colspan,
-.packages-payments .wrapper .image-gallery .image.colspan {
-  grid-column: span 2;
-}
-
-/* Packages page */
-
-.packages-payments .wrapper .text-content {
+.payments .wrapper .text-content {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.packages-payments .wrapper .text-content h2 {
+.payments .wrapper .image-gallery .image.bag {
+  background: url(../img/image-bag-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .wrapper .image-gallery .image.passport {
+  background: url(../img/image-passport-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .wrapper .image-gallery .image.bridge {
+  background: url(../img/image-bridge-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .wrapper .image-gallery .image.colspan {
+  grid-column: span 2;
+}
+
+/* Packages page */
+
+.payments .wrapper .text-content h2 {
   font-size: 40px;
   font-weight: var(--title-weight);
   line-height: 100%;
   margin: 0;
 }
 
-.packages-payments .wrapper .text-content h3 {
+.payments .wrapper .text-content h3 {
   margin: 0;
 }
 
-.packages-payments .wrapper .image-gallery .image.japan-1 {
+.payments .wrapper .image-gallery .image.japan-1 {
   background: url(../img/japan-mobile-1.png) no-repeat;
   background-size: cover;
 }
 
-.packages-payments .wrapper .image-gallery .image.japan-2 {
+.payments .wrapper .image-gallery .image.japan-2 {
   background: url(../img/japan-mobile-2.png) no-repeat;
   background-size: cover;
 }
 
-.packages-payments .wrapper .image-gallery .image.japan-3 {
+.payments .wrapper .image-gallery .image.japan-3 {
   background: url(../img/japan-mobile-3.png) no-repeat;
   background-size: cover;
   background-position: top;
 }
 
 @media screen and (min-width: 768px) {
-  .main-payments .wrapper .image-gallery .image.bag {
+  .payments .wrapper .image-gallery .image.bag {
     background: url(../img/image-bag-tablet.png) no-repeat;
     background-size: cover;
   }
 
-  .main-payments .wrapper .image-gallery .image.passport {
+  .payments .wrapper .image-gallery .image.passport {
     background: url(../img/image-passport-tablet.png) no-repeat;
     background-size: cover;
   }
 
-  .main-payments .wrapper .image-gallery .image.bridge {
+  .payments .wrapper .image-gallery .image.bridge {
     background: url(../img/image-bridge-tablet.png) no-repeat;
     background-size: cover;
   }
 
   /* Packages page */
-  .packages-payments .wrapper .image-gallery .image.japan-1 {
+  .payments .wrapper .image-gallery .image.japan-1 {
     background: url(../img/japan-tablet-1.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 
-  .packages-payments .wrapper .image-gallery .image.japan-2 {
+  .payments .wrapper .image-gallery .image.japan-2 {
     background: url(../img/japan-tablet-2.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 
-  .packages-payments .wrapper .image-gallery .image.japan-3 {
+  .payments .wrapper .image-gallery .image.japan-3 {
     background: url(../img/japan-tablet-3.png) no-repeat;
     background-size: cover;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .main-payments .wrapper {
+  .payments .wrapper {
     display: flex;
     justify-content: space-between;
   }
 
-  .main-payments .wrapper .image-gallery {
+  .payments .wrapper .image-gallery {
     width: 790px;
     margin-top: 0;
   }
 
-  .main-payments .wrapper .text-content {
-    width: 360px;
-  }
-
-  .main-payments .wrapper .text-content h3 {
-    margin-top: 0;
-  }
-
-  /* Packages page */
-
-  .packages-payments .wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .packages-payments .wrapper .image-gallery {
-    width: 790px;
-    margin-top: 0;
-  }
-
-  .packages-payments .wrapper .text-content {
+  .payments .wrapper .text-content {
     width: 360px;
     margin-right: 10px;
   }
