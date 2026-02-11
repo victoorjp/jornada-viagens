@@ -1,44 +1,44 @@
-.main-reviews .reviews-container {
+.reviews .reviews-container {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
-.main-reviews .reviews-container article header {
+.reviews .reviews-container article header {
   margin-bottom: 8px;
 }
 
-.main-reviews .reviews-container article header p {
+.reviews .reviews-container article header p {
   font-size: 16px;
   line-height: 20px;
 }
 
-.main-reviews .reviews-container article footer h3 {
+.reviews .reviews-container article footer h3 {
   font-size: 20px;
   line-height: 32px;
   font-weight: var(--title-weight);
   margin: 0;
 }
 
-.main-reviews .reviews-container article footer {
+.reviews .reviews-container article footer {
   display: flex;
   flex-direction: row;
   gap: 24px;
   align-items: center;
 }
 
-.main-reviews .reviews-container article footer img {
+.reviews .reviews-container article footer img {
   width: 86px;
   height: 86px;
 }
 
-.main-reviews .reviews-container article footer .rating .star {
+.reviews .reviews-container article footer .rating .star {
   color: var(--secondary-color);
   font-size: 32px;
   line-height: 32px;
 }
 
 @media screen and (min-width: 1440px) {
-  .main-reviews .reviews-container {
+  .reviews .reviews-container {
     flex-direction: row;
   }
 }
